@@ -10,7 +10,7 @@ Tests executed on macOS 26.0 on Apple Silicon MacBook Pro with M2 Pro.
 
 Note: Ordered from fastest to slowest.
 
-## TypeScript with Bun
+## TypeScript with Bun 1.2.22
 
 ```
 ❯ bun ./prime-sieve.ts
