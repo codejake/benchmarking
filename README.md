@@ -2,9 +2,9 @@
 
 The tests were run several times. The below runs are decent averages.
 
-## Testing Host
-
 Note: I bet these tests would look a lot different on Linux.
+
+## Testing Host
 
 Tests executed on macOS 26.0 on Apple Silicon MacBook Pro with M2 Pro.
 
