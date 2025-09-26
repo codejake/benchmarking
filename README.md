@@ -6,10 +6,7 @@ The tests were run several times. The below runs are decent averages.
 
 Note: I bet these tests would look a lot different on Linux.
 
-```
-❯ uname -a      
-Darwin jakes-mbp 25.0.0 Darwin Kernel Version 25.0.0: Mon Aug 25 21:17:51 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T6020 arm64
-```
+macOS 26.0 on Apple Silicon MacBook Pro with M2 Pro.
 
 Note: Ordered from fastest to slowest.
 
