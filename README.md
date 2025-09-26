@@ -6,7 +6,7 @@ The tests were run several times. The below runs are decent averages.
 
 Note: I bet these tests would look a lot different on Linux.
 
-macOS 26.0 on Apple Silicon MacBook Pro with M2 Pro.
+Tests executed on macOS 26.0 on Apple Silicon MacBook Pro with M2 Pro.
 
 Note: Ordered from fastest to slowest.
 
@@ -26,9 +26,25 @@ TypeScript Performance Benchmark
 Total execution time: 0.0185 seconds
 ```
 
-## DotNet 10
+## Dotnet 10 RC (Release)
 ```
-❯ dotnet run ./prime-sieve.cs
+❯ dotnet run -c Release prime-sieve.cs
+C# Performance Benchmark
+========================================
+1. Prime Sieve (up to 100,000)
+   Found 9592 primes in 0.0011 seconds
+2. Fibonacci (40th number)
+   Result: 102334155 in 0.0001 seconds
+3. Matrix Multiplication (200x200)
+   Completed in 0.0206 seconds
+
+Total execution time: 0.0205 seconds
+```
+
+
+## DotNet 10 (Debug)
+```
+❯ dotnet run -c Debug ./prime-sieve.cs
 C# Performance Benchmark
 ========================================
 1. Prime Sieve (up to 100,000)
