@@ -26,7 +26,7 @@ TypeScript Performance Benchmark
 Total execution time: 0.0185 seconds
 ```
 
-## Dotnet 10 RC (Release)
+## Dotnet 10 RC (10.0.0-rc.1.25451.107 Release)
 ```
 ❯ dotnet run -c Release prime-sieve.cs
 C# Performance Benchmark
@@ -42,7 +42,7 @@ Total execution time: 0.0205 seconds
 ```
 
 
-## DotNet 10 (Debug)
+## DotNet 10 RC (10.0.0-rc.1.25451.107 Debug)
 ```
 ❯ dotnet run -c Debug ./prime-sieve.cs
 C# Performance Benchmark
